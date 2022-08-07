@@ -1,0 +1,6 @@
+FROM centos:7
+#RUN    apt-get update
+RUN yum install -y python3
+#RUN     apt-get -y install python
+#COPY ./opt/source code
+CMD ["echo", "Hello, Darwin"]
